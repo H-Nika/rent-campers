@@ -1,0 +1,12 @@
+.link {
+  display: inline-flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 12px 210px;
+  font-weight: 700;
+  color: #f2f4f7;
+}
+
+.link:hover {
+  color: #e44848;
+}

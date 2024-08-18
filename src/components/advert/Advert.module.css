@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  padding: 24px;
+  gap: 24px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 20px;
+  width: 100%;
+  background: #fff;
+}
+
+.imgBox {
+  width: 290px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.titleBox {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.price {
+}
+
+.iconBox {
+  padding-top: 5px;
+}
+
+.description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+}
+
+.btn {
+  padding: 16px 40px;
+  border: 1px solid #e44848;
+  border-radius: 200px;
+  background-color: #e44848;
+  align-self: start;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #d84343;
+  cursor: pointer;
+}

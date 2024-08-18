@@ -1,0 +1,89 @@
+.container {}
+
+.title {}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 16px 0 24px 0;
+}
+
+.imgBox {
+  display: flex;
+  height: 310px;
+  gap: 16px;
+}
+
+.img {
+  width: 290px;
+  height: 310px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+  margin: 24px 0 44px 0;
+}
+
+.tabBtnBox {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 44px;
+  position: relative;
+}
+
+.reviewsBtn {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.featuresBtn,
+.reviewsBtn {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.featuresBtn {
+  margin-right: 30px;
+}
+
+.activeTab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 5px;
+  background-color: #e44848;
+}
+
+.tabBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+}
+
+.leftBox {
+  width: 448px;
+
+}
+
+.rightBox {
+  width: 448px;
+}
