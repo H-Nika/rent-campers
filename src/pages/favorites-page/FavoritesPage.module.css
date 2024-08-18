@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 200px;
+}
+
+.title {
+  font-weight: 600;
+  color: #ffc531;
+}
+
+.span {
+  margin-top: 50px;
+  color: #e44848;
+}
+
+.span1 {
+  margin-top: 50px;
+  color: #ffc531;
+}
