@@ -18,22 +18,22 @@ const HomePage = () => {
             </p>
           </div>
         <div className={css.containerImg}>
-          <img
-            src="../../../public/1.jpg"
+            <img
+            src="/images/1.jpg"
             alt="Family camper"
             className={css.img}
             width={300}
             height={180}
           />
           <img
-            src="../../../public/2.jpg"
+            src="/images/2.jpg"
             alt="Family camper"
             className={css.img}
             width={300}
             height={180}
           />
           <img
-            src="../../../public/1.jpg"
+            src="/images/3.jpg"
             alt="Family camper"
             className={css.img}
             width={300}
